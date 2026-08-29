@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Color",
+    "socket": "COLOR",
+    "default": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Roughness",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "IOR",
+    "socket": "FLOAT",
+    "default": 1.45,
+    "min": 1.0,
+    "max": 2.5,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Transmission",
+    "socket": "FLOAT",
+    "default": 1.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  }
+]

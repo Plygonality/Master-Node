@@ -1,0 +1,17 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "surface.default",
+  "name": "Default",
+  "category": "surface",
+  "tier": "free",
+  "description": "Neutral mid-gray principled surface.",
+  "values": {
+    "Base Color": [0.8, 0.8, 0.8, 1.0],
+    "Metallic": 0.0,
+    "Roughness": 0.4,
+    "IOR": 1.5,
+    "Emission Strength": 0.0,
+    "Alpha": 1.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "dielectric.rubber",
+  "name": "Rubber",
+  "category": "dielectric",
+  "tier": "free",
+  "description": "Soft, low-spec elastomer.",
+  "values": {
+    "Color": [0.04, 0.04, 0.045, 1.0],
+    "Roughness": 0.72,
+    "Specular": 0.25,
+    "IOR": 1.51,
+    "Coat Weight": 0.0,
+    "Sheen Weight": 0.15
+  }
+}

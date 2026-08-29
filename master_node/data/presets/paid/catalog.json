@@ -1,0 +1,55 @@
+{
+  "format": "master-node-paid-catalog",
+  "version": 1,
+  "note": "Names only. Values ship in a paid pack. The framework stays public.",
+  "presets": [
+    {
+      "id": "metal.aged_brass",
+      "name": "Aged Brass",
+      "category": "metal",
+      "description": "Warm brass with tarnish in the roughness."
+    },
+    {
+      "id": "metal.anodized_blue",
+      "name": "Anodized Blue",
+      "category": "metal",
+      "description": "Dyed aluminum oxide."
+    },
+    {
+      "id": "metal.galvanized",
+      "name": "Galvanized",
+      "category": "metal",
+      "description": "Zinc-coat industrial steel."
+    },
+    {
+      "id": "glass.smoked",
+      "name": "Smoked",
+      "category": "glass",
+      "description": "Tinted architectural glass."
+    },
+    {
+      "id": "glass.thin_film",
+      "name": "Thin Film",
+      "category": "glass",
+      "description": "Iridescent coating look."
+    },
+    {
+      "id": "fabric.silk",
+      "name": "Silk",
+      "category": "fabric",
+      "description": "Tight weave, sharp sheen."
+    },
+    {
+      "id": "fabric.denim",
+      "name": "Denim",
+      "category": "fabric",
+      "description": "Indigo twill."
+    },
+    {
+      "id": "layered.wet_asphalt",
+      "name": "Wet Asphalt",
+      "category": "layered",
+      "description": "Rain-soaked road."
+    }
+  ]
+}

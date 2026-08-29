@@ -1,0 +1,15 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "glass.frosted",
+  "name": "Frosted",
+  "category": "glass",
+  "tier": "free",
+  "description": "Sandblasted transmission.",
+  "values": {
+    "Color": [0.95, 0.96, 0.97, 1.0],
+    "Roughness": 0.35,
+    "IOR": 1.45,
+    "Transmission": 1.0
+  }
+}

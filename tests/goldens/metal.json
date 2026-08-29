@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Color",
+    "socket": "COLOR",
+    "default": [
+      0.72,
+      0.72,
+      0.74,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Roughness",
+    "socket": "FLOAT",
+    "default": 0.25,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "Anisotropy",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "Rotation",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "Coat Weight",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Coat"
+  },
+  {
+    "name": "Coat Roughness",
+    "socket": "FLOAT",
+    "default": 0.03,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Coat"
+  }
+]

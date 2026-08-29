@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Color",
+    "socket": "COLOR",
+    "default": [
+      1.0,
+      0.85,
+      0.55,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Strength",
+    "socket": "FLOAT",
+    "default": 8.0,
+    "min": 0.0,
+    "max": 200.0,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Surface Roughness",
+    "socket": "FLOAT",
+    "default": 0.4,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Surface"
+  },
+  {
+    "name": "Surface Color",
+    "socket": "COLOR",
+    "default": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": "Surface"
+  }
+]

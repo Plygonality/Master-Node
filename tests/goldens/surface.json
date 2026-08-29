@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Base Color",
+    "socket": "COLOR",
+    "default": [
+      0.8,
+      0.8,
+      0.8,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Metallic",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "Roughness",
+    "socket": "FLOAT",
+    "default": 0.4,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "IOR",
+    "socket": "FLOAT",
+    "default": 1.5,
+    "min": 1.0,
+    "max": 2.5,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Emission Color",
+    "socket": "COLOR",
+    "default": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": "Emission"
+  },
+  {
+    "name": "Emission Strength",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 50.0,
+    "subtype": "",
+    "panel": "Emission"
+  },
+  {
+    "name": "Alpha",
+    "socket": "FLOAT",
+    "default": 1.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Alpha"
+  }
+]

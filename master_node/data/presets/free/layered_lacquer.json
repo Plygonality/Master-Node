@@ -1,0 +1,18 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "layered.lacquer",
+  "name": "Lacquer",
+  "category": "layered",
+  "tier": "free",
+  "description": "Wood-finish clear coat over a warm dielectric.",
+  "values": {
+    "Base Color": [0.28, 0.16, 0.08, 1.0],
+    "Base Roughness": 0.45,
+    "Metallic": 0.0,
+    "Coat Weight": 0.85,
+    "Coat Roughness": 0.08,
+    "Coat IOR": 1.48,
+    "Coat Tint": [1.0, 0.95, 0.88, 1.0]
+  }
+}

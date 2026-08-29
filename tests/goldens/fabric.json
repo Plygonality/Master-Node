@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Color",
+    "socket": "COLOR",
+    "default": [
+      0.35,
+      0.22,
+      0.18,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Roughness",
+    "socket": "FLOAT",
+    "default": 0.7,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "Sheen Weight",
+    "socket": "FLOAT",
+    "default": 0.6,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Sheen"
+  },
+  {
+    "name": "Sheen Roughness",
+    "socket": "FLOAT",
+    "default": 0.4,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Sheen"
+  },
+  {
+    "name": "Sheen Tint",
+    "socket": "COLOR",
+    "default": [
+      0.95,
+      0.9,
+      0.85,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": "Sheen"
+  },
+  {
+    "name": "Subsurface",
+    "socket": "FLOAT",
+    "default": 0.05,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Volume"
+  }
+]
