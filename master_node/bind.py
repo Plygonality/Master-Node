@@ -118,12 +118,15 @@ def socket_values(node: bpy.types.Node) -> dict[str, Any]:
 
 
 def _rna_to_json(value: Any) -> Any:
-    if hasattr(value, "to_list"):
-        return list(value)
-    if isinstance(value, (tuple, list)):
-        return [float(v) for v in value]
     if isinstance(value, bool):
         return value
     if isinstance(value, (int, float)):
         return float(value) if not isinstance(value, int) else value
+    if isinstance(value, str):
+        return value
+    to_list = getattr(value, "to_list", None)
+    if callable(to_list):
+        return [_rna_to_json(v) for v in to_list()]
+    if type(value).__name__ == "bpy_prop_array" or isinstance(value, (tuple, list)):
+        return [_rna_to_json(v) for v in value]
     return value

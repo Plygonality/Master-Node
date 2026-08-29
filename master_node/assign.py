@@ -30,14 +30,42 @@ def assign_category(mat: bpy.types.Material, category: str) -> bpy.types.ShaderN
     ntree = mat.node_tree
     assert ntree is not None
     output = _material_output(ntree)
-    group = _existing_master_instance(ntree) or ntree.nodes.new("ShaderNodeGroup")
+    # Recreate the instance. Reusing a ShaderNodeGroup and swapping node_tree
+    # copies default_value by socket *index*, so Metal inherits Glass leftovers.
+    old = _existing_master_instance(ntree)
+    location = (output.location.x - 280, output.location.y)
+    if old is not None:
+        location = (old.location.x, old.location.y)
+        ntree.nodes.remove(old)
+    group = ntree.nodes.new("ShaderNodeGroup")
     group.node_tree = tree
     group.name = tree.name
     group.label = tree_name_for(category)
-    group.location = (output.location.x - 280, output.location.y)
+    group.location = location
+    _sync_defaults(group)
     _connect_surface(ntree, group, output)
     mark_material(mat, tree.name)
     return group
+
+
+def _sync_defaults(group: bpy.types.ShaderNodeGroup) -> None:
+    tree = group.node_tree
+    if tree is None:
+        return
+    for item in tree.interface.items_tree:
+        if getattr(item, "item_type", "SOCKET") != "SOCKET":
+            continue
+        if getattr(item, "in_out", "INPUT") != "INPUT":
+            continue
+        if not hasattr(item, "default_value"):
+            continue
+        socket = group.inputs.get(item.name)
+        if socket is None or not hasattr(socket, "default_value"):
+            continue
+        try:
+            socket.default_value = item.default_value
+        except (TypeError, ValueError):
+            pass
 
 
 def _material_output(ntree: bpy.types.NodeTree) -> bpy.types.Node:
