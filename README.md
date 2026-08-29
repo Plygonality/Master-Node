@@ -2,6 +2,8 @@
 
 N-panel that binds to a category master node and exposes its parameters.
 
+**Status:** framework public / presets paid / Blender 4.2+ / tests: pytest without Blender.
+
 This is the **material-system product**, not a preset pack. The framework is public. Presets are paid.
 
 Artists install the add-on and look-dev in the 3D Viewport. They do not need Cursor.
@@ -33,11 +35,19 @@ A **category master** is the opposite. Metal is one node group. Glass is one nod
 
 ## Install
 
+First-time install is a zip of the **`master_node/`** folder, not the repository root. Blender needs `master_node/__init__.py` inside the zip. A GitHub "Download ZIP" of the whole repo will not install.
+
+```bash
+python scripts/package_zip.py   # writes dist/master_node.zip
+```
+
+Then **Blender → Preferences → Add-ons → Install** and pick that zip.
+
+If you already have a clone and a local Blender add-ons folder, this copies `master_node/` there instead of making a zip:
+
 ```bash
 python scripts/install_addon.py
 ```
-
-Or zip `master_node/` and install it from **Blender → Preferences → Add-ons → Install**.
 
 Enable **Material: Master Node**. 3D Viewport → `N` → **Master Node**.
 
@@ -51,6 +61,10 @@ Blender 4.2+. The add-on also lives in the Shader Editor sidebar.
 4. Tweak the sliders. They *are* the group inputs — `layout.prop(socket, "default_value")`.
 
 Bind a group you already built: select it in the Shader Editor and **Bind Selected Group**. The panel will pick it up as the category master.
+
+## Screenshots
+
+Panel capture is TODO. This repo does not ship screenshots yet.
 
 ## Protocol
 
