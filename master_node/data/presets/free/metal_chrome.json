@@ -1,0 +1,17 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "metal.chrome",
+  "name": "Chrome",
+  "category": "metal",
+  "tier": "free",
+  "description": "Mirror-finish chrome.",
+  "values": {
+    "Color": [0.95, 0.95, 0.97, 1.0],
+    "Roughness": 0.02,
+    "Anisotropy": 0.0,
+    "Rotation": 0.0,
+    "Coat Weight": 0.0,
+    "Coat Roughness": 0.03
+  }
+}

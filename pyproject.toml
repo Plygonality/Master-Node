@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "master-node"
+version = "0.1.0"
+description = "Blender N-panel that binds to a category master node and exposes its parameters."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Plygonality" }]
+keywords = ["blender", "materials", "shader", "tech-art", "look-dev"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics :: 3D Modeling",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/Plygonality/Master-Node"
+Plygon-mcp = "https://github.com/Plygonality/Plygon-mcp"
+
+[tool.setuptools.packages.find]
+include = ["master_node", "master_node.*"]
+
+[tool.setuptools.package-data]
+master_node = ["blender_manifest.toml", "data/presets/free/*.json", "data/presets/paid/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["master_node", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

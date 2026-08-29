@@ -1,0 +1,12 @@
+schema_version = "1.0.0"
+
+id = "master_node"
+version = "0.1.0"
+name = "Master Node"
+tagline = "N-panel that binds to a category master and exposes its parameters"
+maintainer = "Plygon"
+type = "add-on"
+website = "https://github.com/Plygonality/Master-Node"
+tags = ["Material", "User Interface"]
+blender_version_min = "4.2.0"
+license = ["SPDX:MIT"]

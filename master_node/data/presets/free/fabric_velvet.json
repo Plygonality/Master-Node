@@ -1,0 +1,17 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "fabric.velvet",
+  "name": "Velvet",
+  "category": "fabric",
+  "tier": "free",
+  "description": "Heavy sheen, dark pile.",
+  "values": {
+    "Color": [0.12, 0.04, 0.08, 1.0],
+    "Roughness": 0.55,
+    "Sheen Weight": 0.9,
+    "Sheen Roughness": 0.22,
+    "Sheen Tint": [0.55, 0.2, 0.3, 1.0],
+    "Subsurface": 0.08
+  }
+}

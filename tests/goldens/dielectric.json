@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Color",
+    "socket": "COLOR",
+    "default": [
+      0.18,
+      0.18,
+      0.2,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Roughness",
+    "socket": "FLOAT",
+    "default": 0.45,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "Specular",
+    "socket": "FLOAT",
+    "default": 0.5,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": ""
+  },
+  {
+    "name": "IOR",
+    "socket": "FLOAT",
+    "default": 1.45,
+    "min": 1.0,
+    "max": 2.5,
+    "subtype": "",
+    "panel": ""
+  },
+  {
+    "name": "Coat Weight",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Coat"
+  },
+  {
+    "name": "Coat Roughness",
+    "socket": "FLOAT",
+    "default": 0.05,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Coat"
+  },
+  {
+    "name": "Sheen Weight",
+    "socket": "FLOAT",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "subtype": "FACTOR",
+    "panel": "Sheen"
+  },
+  {
+    "name": "Sheen Tint",
+    "socket": "COLOR",
+    "default": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "min": null,
+    "max": null,
+    "subtype": "",
+    "panel": "Sheen"
+  }
+]

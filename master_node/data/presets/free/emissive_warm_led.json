@@ -1,0 +1,15 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "emissive.warm_led",
+  "name": "Warm LED",
+  "category": "emissive",
+  "tier": "free",
+  "description": "2700K-ish fixture glow.",
+  "values": {
+    "Color": [1.0, 0.72, 0.38, 1.0],
+    "Strength": 12.0,
+    "Surface Roughness": 0.35,
+    "Surface Color": [0.02, 0.02, 0.02, 1.0]
+  }
+}

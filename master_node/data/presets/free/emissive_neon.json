@@ -1,0 +1,15 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "emissive.neon",
+  "name": "Neon",
+  "category": "emissive",
+  "tier": "free",
+  "description": "Saturated tube.",
+  "values": {
+    "Color": [0.15, 0.85, 1.0, 1.0],
+    "Strength": 40.0,
+    "Surface Roughness": 0.15,
+    "Surface Color": [0.0, 0.02, 0.04, 1.0]
+  }
+}

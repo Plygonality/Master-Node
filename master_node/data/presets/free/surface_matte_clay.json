@@ -1,0 +1,17 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "surface.matte_clay",
+  "name": "Matte Clay",
+  "category": "surface",
+  "tier": "free",
+  "description": "Blockout clay. No spec, no metal.",
+  "values": {
+    "Base Color": [0.55, 0.48, 0.42, 1.0],
+    "Metallic": 0.0,
+    "Roughness": 0.85,
+    "IOR": 1.4,
+    "Emission Strength": 0.0,
+    "Alpha": 1.0
+  }
+}

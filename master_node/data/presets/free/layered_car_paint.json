@@ -1,0 +1,18 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "layered.car_paint",
+  "name": "Car Paint",
+  "category": "layered",
+  "tier": "free",
+  "description": "Gloss clear-coat over a metallic flake base.",
+  "values": {
+    "Base Color": [0.04, 0.1, 0.32, 1.0],
+    "Base Roughness": 0.28,
+    "Metallic": 0.35,
+    "Coat Weight": 1.0,
+    "Coat Roughness": 0.02,
+    "Coat IOR": 1.5,
+    "Coat Tint": [1.0, 1.0, 1.0, 1.0]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "metal.brushed_aluminum",
+  "name": "Brushed Aluminum",
+  "category": "metal",
+  "tier": "free",
+  "description": "Soft anisotropic mill finish.",
+  "values": {
+    "Color": [0.72, 0.73, 0.75, 1.0],
+    "Roughness": 0.28,
+    "Anisotropy": 0.65,
+    "Rotation": 0.0,
+    "Coat Weight": 0.0,
+    "Coat Roughness": 0.03
+  }
+}

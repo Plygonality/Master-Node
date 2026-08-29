@@ -1,0 +1,15 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "glass.clear",
+  "name": "Clear",
+  "category": "glass",
+  "tier": "free",
+  "description": "Window glass.",
+  "values": {
+    "Color": [1.0, 1.0, 1.0, 1.0],
+    "Roughness": 0.0,
+    "IOR": 1.45,
+    "Transmission": 1.0
+  }
+}

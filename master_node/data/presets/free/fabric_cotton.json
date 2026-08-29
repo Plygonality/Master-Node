@@ -1,0 +1,16 @@
+{
+  "format": "master-node-preset",
+  "version": 1,
+  "id": "fabric.cotton",
+  "name": "Cotton",
+  "category": "fabric",
+  "tier": "free",
+  "description": "Matte woven cotton.",
+  "values": {
+    "Color": [0.62, 0.58, 0.52, 1.0],
+    "Roughness": 0.78,
+    "Sheen Weight": 0.25,
+    "Sheen Roughness": 0.55,
+    "Subsurface": 0.02
+  }
+}
